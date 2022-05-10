@@ -4,7 +4,7 @@ import { Circle } from "react-native-svg";
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 const STEP_TOTAL = 50,
     HUNDRED = 100;
-
+ 
 export default class CircularProgressBar extends PureComponent {
     state = {
         fill: 0,
